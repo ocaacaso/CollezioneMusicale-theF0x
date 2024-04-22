@@ -27,7 +27,6 @@ public abstract class Supporto {
     for (Canzone c : canzoni) {
       sb.append(c).append("\n");
     }
-
     return sb.toString();
   }
 }
